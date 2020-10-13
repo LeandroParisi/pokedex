@@ -1,0 +1,15 @@
+select, option {
+  color: black;
+}
+
+.select-pokemon-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-button {
+  background-color: rgb(199, 160, 8);
+  color: black;
+}
