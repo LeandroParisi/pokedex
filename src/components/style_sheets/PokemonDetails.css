@@ -1,0 +1,19 @@
+.details-container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.fav-checkbox-container {
+  width: 10%;
+  align-self: center;
+  border-radius: 2px;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 10px 0;
+}
+
+#details-pokemon-gif {
+  width: 100px;
+  align-self: center;
+}
+
