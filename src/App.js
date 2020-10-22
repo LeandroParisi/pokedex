@@ -180,7 +180,7 @@ class App extends React.Component {
               <Switch>
                 <Route exact path="/" render={(props) => <Pokedex {...props} pokemons={pokemonList} newPokemons={pokemonList} favoritePokemons={favoritePokemons} />} />
 
-                <Route exact path="/pokedex" render={(props) => <Pokedex {...props} pokemons={pokemonList} newPokemons={pokemonList} favoritePokemons={favoritePokemons} />} />
+                <Route path="/pokedex" render={(props) => <Pokedex {...props} pokemons={pokemonList} newPokemons={pokemonList} favoritePokemons={favoritePokemons} />} />
 
                 <Route exact path="/pokemon/:id" render={(props) => <PokemonDetails {...props} handleStateChange={this.handleStateChange} favoritePokemons={favoritePokemons} />}/>
 
