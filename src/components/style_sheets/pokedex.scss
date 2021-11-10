@@ -1,0 +1,41 @@
+@import '../../assets/scss/colors.scss';
+
+@mixin flexBox($direction: row, $justify: flex-start) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  flex-wrap: wrap;
+}
+
+$blueColor: rgb(60, 90, 166);
+
+.pokedex {
+  @include flexBox(column, center);
+  margin: 10px 10px;
+  align-items: center;
+
+  .pokedex-buttons-panel {
+    @include flexBox(row, center);
+
+    .filter-button {
+      width: 80px;
+      height: 50px;
+      margin: 10px;
+      background-color: $blueColor;
+    }
+  }
+
+  .pokedex-button {
+    width: 100px;
+    height: 50px;
+    background-color: $blueColor;
+
+    &:disabled {
+      background-color: #D0D0D0;
+    }
+  }
+}
+
+
+
+

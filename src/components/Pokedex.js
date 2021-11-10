@@ -1,7 +1,7 @@
 import React from 'react';
 import Pokemon from './Pokemon';
 import Button from './Button';
-import './style_sheets/pokedex.css';
+import './style_sheets/pokedex.scss';
 import'./style_sheets/TypeBackgroundColors.css';
 
 class Pokedex extends React.Component {
